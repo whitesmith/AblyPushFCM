@@ -1,0 +1,184 @@
+PODS:
+  - Ably (1.1.5):
+    - KSCrashAblyFork (= 1.15.18-ably-1)
+    - MsgPackAblyFork (= 0.2.0-ably-1)
+    - SAMKeychain (= 1.5.3)
+    - SocketRocketAblyFork (= 0.5.2-ably-2)
+    - ULID (= 1.1.0)
+  - Firebase/Core (6.2.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.1)
+  - Firebase/CoreOnly (6.2.0):
+    - FirebaseCore (= 6.0.2)
+  - Firebase/Messaging (6.2.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.0.2)
+  - FirebaseAnalytics (6.0.1):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleAppMeasurement (= 6.0.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (6.0.2):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.1.1):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.0.2):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (6.0.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (6.2.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.0)
+  - GoogleUtilities/Logger (6.2.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.0)"
+  - GoogleUtilities/Reachability (6.2.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.0):
+    - GoogleUtilities/Logger
+  - KSCrashAblyFork (1.15.18-ably-1):
+    - KSCrashAblyFork/Installations (= 1.15.18-ably-1)
+  - KSCrashAblyFork/Installations (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting
+  - KSCrashAblyFork/Recording (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording/Tools (= 1.15.18-ably-1)
+  - KSCrashAblyFork/Recording/Tools (1.15.18-ably-1)
+  - KSCrashAblyFork/Reporting (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/MessageUI (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Sinks (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Tools (= 1.15.18-ably-1)
+  - KSCrashAblyFork/Reporting/Filters (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Alert (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/Base (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/Basic (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/GZip (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/JSON (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/Sets (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/Stringify (= 1.15.18-ably-1)
+    - KSCrashAblyFork/Reporting/Filters/Tools (= 1.15.18-ably-1)
+  - KSCrashAblyFork/Reporting/Filters/Alert (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/AppleFmt (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Base (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Filters/Basic (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/GZip (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/JSON (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Sets (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt
+    - KSCrashAblyFork/Reporting/Filters/Base
+    - KSCrashAblyFork/Reporting/Filters/Basic
+    - KSCrashAblyFork/Reporting/Filters/GZip
+    - KSCrashAblyFork/Reporting/Filters/JSON
+    - KSCrashAblyFork/Reporting/Filters/Stringify
+  - KSCrashAblyFork/Reporting/Filters/Stringify (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Tools (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/MessageUI (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Sinks (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters
+    - KSCrashAblyFork/Reporting/Tools
+  - KSCrashAblyFork/Reporting/Tools (1.15.18-ably-1):
+    - KSCrashAblyFork/Recording
+  - MsgPackAblyFork (0.2.0-ably-1)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Protobuf (3.8.0)
+  - SAMKeychain (1.5.3)
+  - SocketRocketAblyFork (0.5.2-ably-2)
+  - ULID (1.1.0)
+
+DEPENDENCIES:
+  - Ably
+  - Firebase/Core
+  - Firebase/Messaging
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Ably
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - KSCrashAblyFork
+    - MsgPackAblyFork
+    - nanopb
+    - Protobuf
+    - SAMKeychain
+    - SocketRocketAblyFork
+    - ULID
+
+SPEC CHECKSUMS:
+  Ably: 2567a8c3003e24b4d753ae64e3844bd3f30c1682
+  Firebase: 5965bac23e7fcb5fa6d926ed429c9ecef8a2014e
+  FirebaseAnalytics: 629301c2b9925f3537d4093a17a72751ae5b7084
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: b0f0262acebfa540e5f97b3832dbb13186980822
+  FirebaseInstanceID: cdb3827746d53ece7ae87a5c51c25c3055443366
+  FirebaseMessaging: 20b6626c41be7840aed7a3dd9a14003efae3d588
+  GoogleAppMeasurement: 51d8d9ea48f0ca44484d29cfbdef976fbd4fc336
+  GoogleUtilities: 996e0db07153674fd1b54b220fda3a3dc3547cba
+  KSCrashAblyFork: eb1c0e9ba5bce1c6e0f30558c6d88590ad0c040e
+  MsgPackAblyFork: 42dc34f3bd458b57de28341351e89f7c73393207
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SocketRocketAblyFork: 8337d4d53e49a8af8dbe76c8416ef55605f758c6
+  ULID: b4714891a02819364faecd574a53e391c4c6de9d
+
+PODFILE CHECKSUM: 0d69f105e4f5cb08a7cc1380a0a95412b780b3bc
+
+COCOAPODS: 1.7.1

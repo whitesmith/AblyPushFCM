@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9E819B6032C6F842B56497E /* Pods_AblyPushFCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F01ADF49960C2F1E4645FEE /* Pods_AblyPushFCM.framework */; };
+		D7E1F6B122A9171800119891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1F6B022A9171800119891 /* AppDelegate.swift */; };
+		D7E1F6B322A9171800119891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1F6B222A9171800119891 /* ViewController.swift */; };
+		D7E1F6B622A9171800119891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E1F6B422A9171800119891 /* Main.storyboard */; };
+		D7E1F6B822A9171A00119891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E1F6B722A9171A00119891 /* Assets.xcassets */; };
+		D7E1F6BB22A9171A00119891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E1F6B922A9171A00119891 /* LaunchScreen.storyboard */; };
+		D7E1F6C322A9191C00119891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E1F6C222A9191C00119891 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07D8080F00572082DBE4AD2E /* Pods-AblyPushFCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AblyPushFCM.release.xcconfig"; path = "Target Support Files/Pods-AblyPushFCM/Pods-AblyPushFCM.release.xcconfig"; sourceTree = "<group>"; };
+		2F01ADF49960C2F1E4645FEE /* Pods_AblyPushFCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AblyPushFCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A94CE998F9DA9691251D77 /* Pods-AblyPushFCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AblyPushFCM.debug.xcconfig"; path = "Target Support Files/Pods-AblyPushFCM/Pods-AblyPushFCM.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E1F6AD22A9171800119891 /* AblyPushFCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AblyPushFCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E1F6B022A9171800119891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E1F6B222A9171800119891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7E1F6B522A9171800119891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E1F6B722A9171A00119891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E1F6BA22A9171A00119891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E1F6BC22A9171A00119891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E1F6C222A9191C00119891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7E1F6C422A951A800119891 /* AblyPushFCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AblyPushFCM.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E1F6AA22A9171800119891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E819B6032C6F842B56497E /* Pods_AblyPushFCM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		477A1704266A4654FBCE5E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F01ADF49960C2F1E4645FEE /* Pods_AblyPushFCM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E9C5DBA4DDEE6516767B950 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65A94CE998F9DA9691251D77 /* Pods-AblyPushFCM.debug.xcconfig */,
+				07D8080F00572082DBE4AD2E /* Pods-AblyPushFCM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E1F6A422A9171800119891 = {
+			isa = PBXGroup;
+			children = (
+				D7E1F6AF22A9171800119891 /* AblyPushFCM */,
+				D7E1F6AE22A9171800119891 /* Products */,
+				4E9C5DBA4DDEE6516767B950 /* Pods */,
+				477A1704266A4654FBCE5E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E1F6AE22A9171800119891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E1F6AD22A9171800119891 /* AblyPushFCM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E1F6AF22A9171800119891 /* AblyPushFCM */ = {
+			isa = PBXGroup;
+			children = (
+				D7E1F6C422A951A800119891 /* AblyPushFCM.entitlements */,
+				D7E1F6B022A9171800119891 /* AppDelegate.swift */,
+				D7E1F6B222A9171800119891 /* ViewController.swift */,
+				D7E1F6B422A9171800119891 /* Main.storyboard */,
+				D7E1F6B722A9171A00119891 /* Assets.xcassets */,
+				D7E1F6B922A9171A00119891 /* LaunchScreen.storyboard */,
+				D7E1F6BC22A9171A00119891 /* Info.plist */,
+				D7E1F6C222A9191C00119891 /* GoogleService-Info.plist */,
+			);
+			path = AblyPushFCM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E1F6AC22A9171800119891 /* AblyPushFCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E1F6BF22A9171A00119891 /* Build configuration list for PBXNativeTarget "AblyPushFCM" */;
+			buildPhases = (
+				45583669762A5D3CB9E93B45 /* [CP] Check Pods Manifest.lock */,
+				D7E1F6A922A9171800119891 /* Sources */,
+				D7E1F6AA22A9171800119891 /* Frameworks */,
+				D7E1F6AB22A9171800119891 /* Resources */,
+				706BA5D7C085DF5CBDDE3EA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AblyPushFCM;
+			productName = AblyPushFCM;
+			productReference = D7E1F6AD22A9171800119891 /* AblyPushFCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E1F6A522A9171800119891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Whitesmith;
+				TargetAttributes = {
+					D7E1F6AC22A9171800119891 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D7E1F6A822A9171800119891 /* Build configuration list for PBXProject "AblyPushFCM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E1F6A422A9171800119891;
+			productRefGroup = D7E1F6AE22A9171800119891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E1F6AC22A9171800119891 /* AblyPushFCM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E1F6AB22A9171800119891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E1F6BB22A9171A00119891 /* LaunchScreen.storyboard in Resources */,
+				D7E1F6C322A9191C00119891 /* GoogleService-Info.plist in Resources */,
+				D7E1F6B822A9171A00119891 /* Assets.xcassets in Resources */,
+				D7E1F6B622A9171800119891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45583669762A5D3CB9E93B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AblyPushFCM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706BA5D7C085DF5CBDDE3EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AblyPushFCM/Pods-AblyPushFCM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AblyPushFCM/Pods-AblyPushFCM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AblyPushFCM/Pods-AblyPushFCM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E1F6A922A9171800119891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E1F6B322A9171800119891 /* ViewController.swift in Sources */,
+				D7E1F6B122A9171800119891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7E1F6B422A9171800119891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E1F6B522A9171800119891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E1F6B922A9171A00119891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E1F6BA22A9171A00119891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E1F6BD22A9171A00119891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7E1F6BE22A9171A00119891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E1F6C022A9171A00119891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A94CE998F9DA9691251D77 /* Pods-AblyPushFCM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AblyPushFCM/AblyPushFCM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E58BZR8M3;
+				INFOPLIST_FILE = AblyPushFCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.AblyPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E1F6C122A9171A00119891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D8080F00572082DBE4AD2E /* Pods-AblyPushFCM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AblyPushFCM/AblyPushFCM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E58BZR8M3;
+				INFOPLIST_FILE = AblyPushFCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.whitesmith.AblyPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E1F6A822A9171800119891 /* Build configuration list for PBXProject "AblyPushFCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E1F6BD22A9171A00119891 /* Debug */,
+				D7E1F6BE22A9171A00119891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E1F6BF22A9171A00119891 /* Build configuration list for PBXNativeTarget "AblyPushFCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E1F6C022A9171A00119891 /* Debug */,
+				D7E1F6C122A9171A00119891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E1F6A522A9171800119891 /* Project object */;
+}
